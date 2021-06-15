@@ -24,43 +24,66 @@ main {
 
 #search-section {
   width: 25%;
-}
-
-#search-box {
-  padding: 10px 15px 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+}
+
+#search-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95%;
+  border-bottom: 1px solid black;
 }
 
 #search-box h2 {
-  margin: 5px;
+  margin-top: 10px;
   width: 100%;
   font-size: 30px;
 }
 
+#search-box input {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 15px;
+  color: lightgray;
+}
+
 #s-button {
   width: 100%;
-  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
   border-style: none;
   background-color: #5aa2e9;
   color: #deeceb;
   padding: 10px 5px 10px 5px;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-#search-box input {
-  width: 100%;
-  margin: 5px;
-  border-radius: 5px;
-  border: 1px solid black;
-  padding: 10px 5px 10px 5px;
-  font-size: 15px;
-  color: lightgray;
+#search-history {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.sh-button {
+  border-radius: 5px;
+  border-style: none;
+  background-color: silver;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
 
 #weather-section {
   width: 75%;
