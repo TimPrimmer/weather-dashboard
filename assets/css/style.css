@@ -132,13 +132,14 @@ main {
 .forecast-holder {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  flex-grow: 100%;
+  justify-content: space-around; /** I used 'around' here instead of 'between' as the wrapping looks 
+                                      a lot nicer / more even **/
 } 
 
 .forecast-card {
   border: 1px solid black;
   min-width: 175px;
+  margin: 0px 10px 10px 0px;
   color:white;
   background-color: #33475a;
 }
