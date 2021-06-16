@@ -51,7 +51,6 @@ main {
   border: 1px solid black;
   padding: 10px;
   font-size: 15px;
-  color: lightgray;
 }
 
 #s-button {
@@ -65,8 +64,13 @@ main {
   padding: 10px 5px 10px 5px;
   font-size: 15px;
   font-weight: 500;
+  transition: all 0.2s;
 }
 
+#s-button:active {
+  background-color: #178bff;
+  transition: all 0s;
+}
 #search-history {
   width: 95%;
   display: flex;
@@ -120,6 +124,11 @@ main {
   width: 100%;
 }
 
+.forecast-box h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 .forecast-holder {
   display: flex;
   flex-wrap: wrap;
@@ -129,8 +138,7 @@ main {
 
 .forecast-card {
   border: 1px solid black;
-  min-width: 150px;
-  max-width: 200px;
+  min-width: 175px;
   color:white;
   background-color: #33475a;
 }
