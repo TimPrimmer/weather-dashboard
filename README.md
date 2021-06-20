@@ -1,7 +1,7 @@
 # Weather Dashboard
 
 ## Purpose
-Weather tracking dashboard using the OpenWeather One Call API
+A weather tracking dashboard using the OpenWeather API, in which users can enter a city name and get a 5 day forecast for that city! Previously searched cities will show up in a list and are saved to local storage, so the next time you access the site you can view all the previoous searches
 
 ## Built With
 * HTML
