@@ -14,7 +14,7 @@ $(sButton).click(function () { // Fires when we click on the search button
   getFetch(apiUrl);
 });
 
-var getFetch = function (apiUrl) {
+var getFetch = function (apiUrl) { // fetchs data and sends data to the creation functions
   fetch(apiUrl).then(function (response) {
     if (response.ok) {
       response.json().then(function (data) {
